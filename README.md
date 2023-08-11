@@ -1,6 +1,8 @@
 # Hey World - iOS Application
 A SwiftUI TCA sample code. The goal of Hey World is to present informations for each country of the world. 🌍
 
+![Simulator Screenshot - iPhone 14 Pro - 2023-08-11 at 14 56 48](https://github.com/marcotdd/hey-world-ios-tca/assets/15362911/3c65d826-0414-4d85-83da-9143950dfab6)
+
 ## Requirements
 
 - Xcode 14 (with Swift 5.7)
