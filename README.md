@@ -4,8 +4,8 @@ A SwiftUI TCA sample code. The goal of Hey World is to present informations for 
 ## Requirements
 
 - Xcode 14 (with Swift 5.7)
-- iOS 15 SDK
-- iOS 15 deployment target
+- iOS 16 SDK
+- iOS 16 deployment target
 
 ## GraphQL
 
