@@ -14,7 +14,7 @@ struct CountryList: Reducer {
         @BindingState var toggleIsOn = false
     }
     
-    enum Action: BindableAction {
+    enum Action: BindableAction, Equatable {
         case appear
         case binding(BindingAction<State>)
         case fetchCountries

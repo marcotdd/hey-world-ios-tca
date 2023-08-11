@@ -1,6 +1,6 @@
 import Foundation
 
-struct CountryLight: CountryProtocol, Identifiable {
+struct CountryLight: CountryProtocol, Identifiable, Equatable {
     let id: String = UUID().uuidString
     let code: String
     let flag: String

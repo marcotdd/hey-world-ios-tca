@@ -22,7 +22,7 @@ struct CountryDetail: Reducer {
         }
     }
     
-    enum Action {
+    enum Action: Equatable {
         case appear
         case fetchCountry
         case countryResponse(TaskResult<CountryDetailed?>)

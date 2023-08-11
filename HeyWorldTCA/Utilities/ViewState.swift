@@ -12,6 +12,9 @@ extension ViewState: Equatable {
         switch (lhs, rhs) {
         case (.initial, .initial):
             return true
+            
+        case (.loading, .loading):
+            return true
 
         case (.success, .success):
             return true
