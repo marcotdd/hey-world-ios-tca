@@ -35,3 +35,14 @@ struct GraphQLAPI {
         return try await fetcher.fetch()
     }
 }
+
+private enum APIClientKey: DependencyKey {
+    static let liveValue = APIClient.live
+}
+
+extension DependencyValues {
+    var apiClient: APIClient {
+        get { self[APIClientKey.self] }
+        set { self[APIClientKey.self] = newValue }
+    }
+}
